@@ -3,7 +3,7 @@
 import { defineConfig } from 'vitepress'
 //const base = "/WeeDocs/"; 
 export default {
-  base,
+//  base,
     // 站点级选项
     title: "WeeDocs", // 网站标题
     description: "智能学习手册", // 网站描述
