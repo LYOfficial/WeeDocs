@@ -1,4 +1,37 @@
+# Project Information
 site_name: WeeDocs
-site_url: https://mydomain.org/mysite
-theme:
+site_description: WeeDocs 是一个在线静态文档，整合了个人及 WeeCine 团队编写的 IT 及 AI 系统学习资料。
+site_author: WeeCine
+site_url: https://docs.weecine.com/
   name: material
+
+# Copyright
+copyright: 'Copyright &copy; 2023 - 2024 WeeCine'
+
+nav:
+- 简介:
+    - 开始: index.md
+    - 关于: about.md
+    - 加入: join.md
+    - 致谢: thanks.md
+- 计算机入门: 
+    - 系统: ITin/system.md
+    - 命令行: ITin/cmd.md
+- 编程语言: 
+    - Python: Program/python.md
+- 智能学习:
+    - 文生文: AIin/docs.md
+    - 文生图: AIin/pics.md
+- 电子电路:
+- 红石电路:
+    - 序: Redstone/index.md
+    - Part1:
+        - 第一章：常见红石元件: Redstone/Part1/1.md
+        - 第二章：红石电路连接基础: Redstone/Part1/2.md
+- 天码秋令营: 
+    - 命令行: SkyCode/part1.md
+    - Git: SkyCode/part2.md
+    - 命令行工具及其安装: SkyCode/part3.md
+    - Anaconda下载及安装: SkyCode/part4.md
+    - Jupyter入门体验: SkyCode/part5.md
+    - ComfyUI入门体验: SkyCode/part6.md

@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# 欢迎来到 WeeDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> A Guide Book for Intelligent Learners
+>
 
-## Commands
+## 建设情况
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+> 目前本文档正在不断完善中，文档正在添加，目录也正在完善，部分文档出现图片加载不出来现象请等待图床更新。
 
-## Project layout
+已添加的项目有：
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* 红石电路
+* 天码秋令营
+
