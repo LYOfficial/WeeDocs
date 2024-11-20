@@ -24,6 +24,7 @@ nav:
     - 文生文: AIin/docs.md
     - 文生图: AIin/pics.md
 - 电子电路:
+    - 电路入门: dianzi/index.md
 - 红石电路:
     - 序: Redstone/index.md
     - Part1:
