@@ -95,8 +95,6 @@ theme:
   
 # Extensions
 markdown_extensions:
-    - document-offsets-injection:
-        # debug: true
     - admonition
     - def_list
     - footnotes
