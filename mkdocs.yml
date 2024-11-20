@@ -30,6 +30,24 @@ nav:
     - Part1:
         - 第一章：常见红石元件: Redstone/Part1/1.md
         - 第二章：红石电路连接基础: Redstone/Part1/2.md
+        - 第三章：中继器进阶理论: Redstone/Part1/3.md
+        - 第四章：比较器进阶理论: Redstone/Part1/4.md
+        - 第五章：红石刻及计算基础: Redstone/Part1/5.md
+        - 第六章：高频原理: Redstone/Part1/6.md
+    Part2:
+        - 第一章：AFK与全自动: Redstone/Part2/1.md
+        - 第二章：光照亮度与刷怪机制: Redstone/Part2/2.md
+        - 第三章：运输设计原理: Redstone/Part2/3.md
+        - 第四章：农业催生原理: Redstone/Part2/4.md
+        - 第五章：生物处死原理: Redstone/Part2/5.md
+        - 第六章：强加载与弱加载: Redstone/Part2/6.md
+    Part3:
+        - 第一章：红石电路进阶理论: Redstone/Part3/1.md
+        - 第二章：计时器及其原理: Redstone/Part3/2.md
+        - 第三章：随机数原理: Redstone/Part3/3.md
+        - 第四章：无电路传导: Redstone/Part3/4.md
+        - 第五章：循环电路: Redstone/Part3/5.md
+        - 第六章：比较电路: Redstone/Part3/6.md
 - 天码秋令营: 
     - 命令行: SkyCode/part1.md
     - Git: SkyCode/part2.md
