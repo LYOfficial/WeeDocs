@@ -3,6 +3,7 @@ site_name: WeeDocs
 site_description: WeeDocs 是一个在线静态文档，整合了个人及 WeeCine 团队编写的 IT 及 AI 系统学习资料。
 site_author: WeeCine
 site_url: https://docs.weecine.com/
+theme:
   name: material
 
 # Copyright
