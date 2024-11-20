@@ -49,9 +49,9 @@ nav:
         - 第五章：循环电路: Redstone/Part3/5.md
         - 第六章：比较电路: Redstone/Part3/6.md
 - 天码秋令营: 
-    - 命令行: SkyCode/part1.md
-    - Git: SkyCode/part2.md
-    - 命令行工具及其安装: SkyCode/part3.md
-    - Anaconda下载及安装: SkyCode/part4.md
-    - Jupyter入门体验: SkyCode/part5.md
-    - ComfyUI入门体验: SkyCode/part6.md
+    - 命令行: SkyCode/Part1.md
+    - Git: SkyCode/Part2.md
+    - 命令行工具及其安装: SkyCode/Part3.md
+    - Anaconda下载及安装: SkyCode/Part4.md
+    - Jupyter入门体验: SkyCode/Part5.md
+    - ComfyUI入门体验: SkyCode/Part6.md
