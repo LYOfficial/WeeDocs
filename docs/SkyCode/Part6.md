@@ -68,18 +68,18 @@ pip install -r requirements.txt
 >    - Nvidia 显卡用户：直接执行 `run_nvidia_gpu.bat` 文件
 >    - 其他 GPU 或者核显用户：执行 `run_cpu.bat` 文件
 >
-> - Mac/Linux 用户：确保电脑 Python 正常使用，在同级命令行输入命令启动 ComfyUI ：
+> - Mac/Linux 用户：确保电脑 Python 正常使用，在同级命令行输入命令启动 ComfyUI ：`python main.py`
 >
->   ```
->   python main.py
->   ```
 
 **6.模型分类**
 
 ComfyUI 目录下有 models 文件夹，这个文件夹是用来放模型文件的，在 models 文件夹下使用 `ls` 命令可以看到文件夹列表如下：
 
-Mode      Length Name
-----                 -------------         ------ ----
+```
+Mode        Length Name
+
+----        ------ ----
+
 d-----      checkpoints
 d-----      clip
 d-----      clip_vision
@@ -97,6 +97,7 @@ d-----      unet
 d-----      upscale_models
 d-----      vae
 d-----      vae_approx
+```
 
 (1) **checkpoints**
 
