@@ -54,6 +54,7 @@ nav:
     - Anaconda下载及安装: SkyCode/Part4.md
     - Jupyter入门体验: SkyCode/Part5.md
     - ComfyUI入门体验: SkyCode/Part6.md
+    - 提示词: SkyCode/Part7.md
 
 # Theme
 theme:

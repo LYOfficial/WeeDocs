@@ -1,16 +1,14 @@
-# 宣传部课题第六讲
-
-### ComfyUI 入门体验
+# 宣传部课题第六讲——ComfyUI 入门体验
 
 ComfyUI 是功能最强大、模块化程度最高的稳定扩散图形用户界面和后台。学习本地部署 ComfyUI 并能正确地调用模型，是我们本次培训的重要环节，经过本讲，你可以学会使用 ComfyUI 流程图来进行文生图。
 
-**1.ComfyUI 介绍**
+### 1.ComfyUI 介绍
 
 ComfyUI 是目前功能最强大的文生图工具，它同时包含后端和网页 GUI 前端，不需要代码编写和手动输入命令即可完成文生图操作。
 
 ComfyUI 的工作是通过**工作流**来完成的，工作流有点类似于编写程序中的流程图，它有一个个图形输入框，通过输入框两端不同的节点相连接，构成复杂庞大的工作流网络，从加载模型开始，一步步生成最终我们需要的图片。
 
-**2.ComfyUI 下载和部署**
+### 2.ComfyUI 下载和部署
 
 作为一个开源的工具，ComfyUI 可以在 Github 下载发行版或直接克隆仓库代码。ComfyUI 在不断更新，各版本之间可能有细微差异但基本功能差别不大，无需频繁下载更新。
 
@@ -24,7 +22,17 @@ ComfyUI 的工作是通过**工作流**来完成的，工作流有点类似于�
 
 前情提要，ComfyUI 的部分依赖不支持 Python 3.13，因此建议使用 Python 版本为 3.10 - 3.12 ，如果版本不符合可以使用 Anaconda 新建一个虚拟环境再进行部署。
 
-**3.手动安装的环境配置**
+### 3.一键安装依赖
+
+打开或者在命令行 cd 进入 ComfyUI 文件夹，找到 `requirements.txt` 文件，在同级下的命令行输入下面的命令来安装 ComfyUI 运行所需要的所有模块依赖。
+
+```
+pip install -r requirements.txt
+```
+
+### 4.手动安装的环境配置
+
+若上述一键安装出现问题，再看这条手动安装来配置环境。
 
 - AMD GPU（仅限 Linux）
 
@@ -54,15 +62,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
 ```
 
-**4.一键安装依赖**
-
-打开或者在命令行 cd 进入 ComfyUI 文件夹，找到 `requirements.txt` 文件，在同级下的命令行输入下面的命令来安装 ComfyUI 运行所需要的所有模块依赖。
-
-```
-pip install -r requirements.txt
-```
-
-**5.首次运行 ComfyUI**
+### 5.首次运行 ComfyUI
 
 > - Windows 用户：ComfyUI 可以使用 GPU 和 CPU，请检查你的电脑设备是否有 Nvidia 显卡，如果不清楚请及时提问。
 >    - Nvidia 显卡用户：直接执行 `run_nvidia_gpu.bat` 文件
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 > - Mac/Linux 用户：确保电脑 Python 正常使用，在同级命令行输入命令启动 ComfyUI ：`python main.py`
 >
 
-**6.模型分类**
+### 6.模型分类
 
 ComfyUI 目录下有 models 文件夹，这个文件夹是用来放模型文件的，在 models 文件夹下使用 `ls` 命令可以看到文件夹列表如下：
 

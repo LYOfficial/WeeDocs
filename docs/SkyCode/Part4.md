@@ -1,8 +1,7 @@
-# 宣传部课题第四讲
+# 宣传部课题第四讲——Anaconda下载及安装
 
-### Anaconda下载及安装
 
-**1.Anaconda 的下载安装**
+### 1.Anaconda 的下载安装
 
 (1) 下载 Anaconda:
 - 访问 [Anaconda 官方网站](https://www.anaconda.com/products/distribution)。
@@ -17,7 +16,7 @@
 >      - 按照提示完成安装。
 >
 
-**2.创建和管理虚拟环境**
+### 2.创建和管理虚拟环境
 
 (1) 打开终端或 Anaconda Prompt:
 
